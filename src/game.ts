@@ -1,5 +1,6 @@
 import AdsharesBanner from '@adshares/decentraland'
 
+
 const adsharesBanner = new AdsharesBanner()
 
 const unit1 = new Entity('unit1');
