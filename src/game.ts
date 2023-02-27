@@ -20,7 +20,7 @@ engine.addEntity(placement1)
 // }))
 // engine.addEntity(placement2)
 
-agent.addPlacement(placement1).start().then(log)
+agent.addPlacement(placement1).start().then()
 
 //
 // engine.addEntity(unit1);
