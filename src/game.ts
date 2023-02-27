@@ -11,14 +11,14 @@ placement1.addComponent(new Transform({
   position: new Vector3(4, 0, 8),
   scale: new Vector3(2, 2, 0.1),
 }))
-engine.addEntity(placement1);
+engine.addEntity(placement1)
 
 const placement2 = new PlainPlacement('unit2', ['image', 'video'], ['image/jpeg', 'image/png', 'video/mp4'])
 placement2.addComponent(new Transform({
   position: new Vector3(8, 0, 4),
   scale: new Vector3(2, 2, 0.1),
 }))
-engine.addEntity(placement2);
+engine.addEntity(placement2)
 
 site.addPlacement(placement1, placement2).start().then(log)
 
