@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outFile": "./bin/game.js",
     "allowJs": true,
-    "moduleResolution": "node"
+    "strict": true
   },
   "include": [
     "src/**/*.ts"
