@@ -13,6 +13,7 @@ const frontPlacement = new PlainPlacement('Stand front', {
     position: new Vector3(0, 2.4, -0.28),
     width: 1.88,
     ratio: '9:16',
+    background: null,
 })
 frontPlacement.setParent(stand)
 
@@ -23,6 +24,7 @@ const backPlacement = new PlainPlacement('Stand back', {
     ratio: '9:16',
     types: ['image', 'video'],
     mimes: ['image/jpeg', 'image/png', 'video/mp4'],
+    background: null,
 })
 backPlacement.setParent(stand)
 
