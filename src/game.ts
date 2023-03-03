@@ -1,4 +1,4 @@
-import {PlainPlacement, SupplyAgent} from '../../decentraland/src/index'
+import {PlainPlacement, SupplyAgent} from '../node_modules/@adshares/decentraland/src/index'
 
 const agent = SupplyAgent.fromWallet('https://app.web3ads.net', 'ads', '0001-00000000-9B6F')
 // const agent = new SupplyAgent('https://app.web3ads.net', 'e39f6593-578e-41f0-8d06-88aff41c6a19')
