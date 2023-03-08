@@ -28,7 +28,7 @@
     "ecs:install-next": "npm install --save-dev decentraland-ecs@next"
   },
   "devDependencies": {
-    "@adshares/decentraland": "^2.0.0",
+    "@adshares/decentraland": "/home/maciek/decentraland",
     "decentraland-ecs": "^6.11.8"
   }
 }
